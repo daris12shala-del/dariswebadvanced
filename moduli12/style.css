@@ -1,0 +1,49 @@
+h1 {
+letter-spacing: 10px;
+color: blue;
+word-spacing: 10px;
+text-indent: 60px;
+}
+
+p{
+
+    text-indent: 60px;
+    text-align: center;
+
+}
+
+h2{
+
+    text-decoration: overline;
+
+}
+
+
+h3{
+
+    text-decoration: line-through;
+
+}
+
+h4{
+
+    text-decoration: underline;
+
+}
+a{
+
+   text-decoration: none;
+
+}
+
+.myelement{
+
+   color: darkblue;
+
+}
+
+#myelement{
+
+       color: brown;
+
+}
