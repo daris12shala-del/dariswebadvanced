@@ -4,97 +4,120 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NOIRÉ | Luxury Perfumes</title>
+    <title>NOIRÉ | Luxury Fragrances</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <header>
-        <a href="index.html" class="logo">NOIRÉ.</a>
+
+    <header class="navbar">
+        <a href="index.html" class="logo">NOIRÉ<span>.</span></a>
+
         <nav>
-            <a href="index.html">Home</a>
+            <a href="index.html" class="active">Home</a>
             <a href="shop.html">Shop</a>
             <a href="men.html">Men</a>
             <a href="women.html">Women</a>
             <a href="notes.html">Fragrance Notes</a>
         </nav>
+
+        <a href="shop.html" class="nav-btn">DISCOVER ↗</a>
     </header>
 
     <main>
         <section class="hero">
-            <div class="hero-text">
-                <p class="subtitle">THE ART OF FRAGRANCE</p>
-                <h1>Discover Your Signature Scent.</h1>
-                <p>Experience timeless elegance and unforgettable fragrances. Find the scent that defines you.</p>
-                <a href="shop.html" class="btn">EXPLORE COLLECTION →</a>
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content">
+                <p class="eyebrow">THE ART OF FRAGRANCE</p>
+
+                <h1>
+                    Discover Your<br>
+                    <span>Signature Scent.</span>
+                </h1>
+
+                <p class="description">
+                    Experience timeless elegance and unforgettable
+                    fragrances. Find the scent that defines you.
+                </p>
+
+                <a href="shop.html" class="hero-btn">
+                    EXPLORE COLLECTION <span>→</span>
+                </a>
+
+                <p class="hero-caption">
+                    LUXURY IN EVERY DROP.
+                </p>
             </div>
-            <div class="hero-image">
-                <img src="fragrance-caps.png" alt="Luxury perfumes">
-            </div>
+
+            <div class="hero-number">NO. 001 — NOIRÉ</div>
         </section>
 
-        <section class="collections">
-            <p class="subtitle">EXPLORE OUR WORLD</p>
-            <h2>Our Collections</h2>
-            <div class="collection-grid">
-                <article class="card">
-                    <img src="dior.png" alt="Men's perfume">
-                    <h3>For Him</h3>
-                    <p>Bold, powerful and sophisticated.</p>
-                    <a href="men.html">DISCOVER MORE →</a>
-                </article>
-                <article class="card">
-                    <img src="diorw.png" alt="Women's perfume">
-                    <h3>For Her</h3>
-                    <p>Elegant, delicate and timeless.</p>
-                    <a href="women.html">DISCOVER MORE →</a>
-                </article>
-                <article class="card">
-                    <img src="universal.png" alt="Unisex perfume">
-                    <h3>For Everyone</h3>
-                    <p>Unique fragrances without boundaries.</p>
-                    <a href="shop.html">DISCOVER MORE →</a>
-                </article>
-            </div>
-        </section>
-
-        <section class="notes">
-            <p class="subtitle">THE SCIENCE OF SCENT</p>
-            <h2>Fragrance Notes</h2>
-            <div class="notes-grid">
-                <div class="note">
-                    <h3>Top Notes</h3>
-                    <p>Bergamot · Lemon · Orange</p>
-                </div>
-                <div class="note">
-                    <h3>Heart Notes</h3>
-                    <p>Rose · Jasmine · Lavender</p>
+        <section class="collection">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">CURATED FOR YOU</p>
+                    <h2>Our <span>Collection</span></h2>
                 </div>
 
-                <div class="note">
-                    <h3>Base Notes</h3>
-                    <p>Vanilla · Oud · Sandalwood</p>
-                </div>
+                <a href="shop.html" class="view-all">
+                    VIEW ALL PRODUCTS ↗
+                </a>
             </div>
-            ]
 
+            <div class="products">
 
-            <a href="notes.html" class="btn">EXPLORE NOTES </a>
+                <article class="product">
+                    <a href="men.html" class="product-image">
+                        <img src="male.png" alt="Luxury fragrance"  width="70px" height="100px">
+                    </a>
+                    <p class="product-category">FOR HIM</p>
+                    <h3>Men's Fragrances</h3>
+                    <a href="men.html" class="product-link">
+                        DISCOVER MORE →
+                    </a>
+                </article>
+
+                <article class="product">
+                    <a href="women.html" class="product-image">
+                        <img src="women.png" alt="Women's luxury fragrance" width="70px" height="100px">
+                    </a>
+                    <p class="product-category">FOR HER</p>
+                    <h3>Women's Fragrances</h3>
+                    <a href="women.html" class="product-link">
+                        DISCOVER MORE →
+                    </a>
+                </article>
+
+                <article class="product">
+                    <a href="shop.html" class="product-image">
+                        <img src="uni-removebg-preview.png" alt="Unisex luxury fragrance" width="70px" height="100px" >
+                    </a>
+                    <p class="product-category">FOR EVERYONE</p>
+                    <h3>Universal Collection</h3>
+                    <a href="shop.html" class="product-link">
+                        DISCOVER MORE →
+                    </a>
+                </article>
+
+            </div>
         </section>
 
-        <section class="about">
-            <p class="subtitle">THE NOIRÉ EXPERIENCE</p>
-            <h2>More Than a Fragrance.</h2>
-            <p>A fragrance is an expression of personality, confidence and timeless elegance.</p>
-            <a href="shop.html" class="btn">SHOP NOW →</a>
+        <section class="quote">
+            <p class="eyebrow">THE NOIRÉ PHILOSOPHY</p>
+            <h2>A fragrance is more than a scent.<br>
+                <span>It's your signature.</span>
+            </h2>
+            <a href="notes.html" class="hero-btn">
+                DISCOVER FRAGRANCE NOTES →
+            </a>
         </section>
-
-
     </main>
 
     <footer>
-        <h2>NOIRÉ.</h2>
-        <p>Elegance in Every Drop.</p>
-        <p>&copy; 2026 NOIRÉ. All Rights Reserved.</p>
+        <a href="index.html" class="logo">NOIRÉ<span>.</span></a>
+        <p>THE ART OF FRAGRANCE.</p>
+        <p class="copyright">© 2026 NOIRÉ. ALL RIGHTS RESERVED.</p>
     </footer>
+
 </body>
 </html>
