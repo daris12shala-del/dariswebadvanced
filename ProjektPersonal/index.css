@@ -3,23 +3,19 @@ body {
     margin: 0;
     background-color: #111;
     color: white;
-    font-family: Arial;
+    font-family: Arial, sans-serif;
 }
 
 header {
-    background-color: #222;
-    padding: 20px;
+    background-color: #191919;
     text-align: center;
+    padding: 20px;
 }
 
-.logo {
-    color: gold;
-    font-size: 35px;
-    text-decoration: none;
-}
-
-nav {
-    margin-top: 20px;
+header h1 {
+    color: #c9a96e;
+    font-size: 36px;
+    letter-spacing: 6px;
 }
 
 nav a {
@@ -29,67 +25,138 @@ nav a {
 }
 
 nav a:hover {
-    color: gold;
+    color: #c9a96e;
 }
 
-.hero {
+.home {
     display: flex;
     align-items: center;
-    padding: 50px;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 70px 8%;
 }
 
-.hero-text {
-    width: 50%;
+.home-text {
+    width: 45%;
 }
 
-.hero h1 {
-    font-size: 45px;
+.home-text h4, .collections h4, .about h4 {
+    color: #c9a96e;
+    letter-spacing: 3px;
 }
 
-.hero em {
-    color: gold;
+.home-text h2 {
+    font-family: Georgia, serif;
+    font-size: 48px;
 }
 
-.hero-image img {
-    width: 400px;
+.home-text p, .about p {
+    color: #bbb;
+    line-height: 1.8;
 }
 
-.btn {
+.home img {
+    width: 45%;
+    border-radius: 10px;
+}
+
+.button {
     display: inline-block;
-    background-color: gold;
+    background-color: #c9a96e;
     color: black;
-    padding: 15px;
-    text-decoration: none;
+    padding: 14px 25px;
     margin-top: 20px;
+    text-decoration: none;
 }
 
-.collections, .notes, .about {
+.button:hover {
+    background-color: white;
+}
+
+.collections {
+    background-color: #191919;
     text-align: center;
-    padding: 50px;
+    padding: 70px 30px;
 }
 
-.collection-grid, .notes-grid {
+.collections h2, .about h2 {
+    font-family: Georgia, serif;
+    font-size: 36px;
+}
+
+.collections p {
+    color: #aaa;
+}
+
+.products {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 40px;
 }
 
-.card, .note {
-    background-color: #222;
-    padding: 20px;
-    width: 250px;
+.product {
+    background-color: #252525;
+    width: 260px;
+    padding: 15px;
+    transition: 0.3s;
 }
 
-.card img {
+.product:hover {
+    transform: translateY(-8px);
+}
+
+.product img {
     width: 100%;
+    height: 270px;
+    object-fit: cover;
 }
 
-.card a {
-    color: gold;
+.product h3, .product a {
+    color: #c9a96e;
+}
+
+.product a {
+    text-decoration: none;
+}
+
+.product a:hover {
+    color: white;
+}
+
+.about {
+    text-align: center;
+    padding: 70px 15%;
 }
 
 footer {
-    background-color: #222;
+    background-color: #191919;
     text-align: center;
     padding: 30px;
+}
+
+footer h2 {
+    color: #c9a96e;
+    letter-spacing: 5px;
+}
+
+footer p {
+    color: #aaa;
+}
+
+@media (max-width: 700px) {
+    .home {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .home-text, .home img {
+        width: 100%;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 8px;
+    }
 }
