@@ -22,7 +22,7 @@ butoni.onmouseleave=function(){
     alert('diten e mir')
 }
 
-
+    
 butoni.onclick=function(){
   teksti.style.color='red'
   teksti.style.background='grey'
