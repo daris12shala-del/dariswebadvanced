@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lesson 33</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+
+    <form onsubmit="return vcalidation();" method="post">
+        <div class="name-container">
+            <label id="name_label" for="name">Name:</label>
+            <input type="text" name="name" id="name">
+
+                    </label>
+        </div>
+        <br>
+
+          <div class="age-container">
+            <label id="age_label" for="name">age:</label>
+            <input type="text" name="age" id="age">
+            <span id="age_error">Please enter a valid age</span>
+          </div>
+          <br>
+          <div class="city-container">
+            <label id="city_label" for="city">City:</label>
+            <select name="city" id="city">
+                <option value="" selected></option>
+                <option value="" >Prishtine</option>
+                <option value="" >prizren</option>
+                <option value="" >gjilan</option>
+                <option value="" >ferizaj</option>
+            </select>
+            <span></span> id="city_error">Please select a city</span>
+          </div>    
+        <br>
+        <button type="submit" name="submit">send</button>
+        </form>
+        <script src="js/script.js"></script>
+
+
+</body>
+</html>
